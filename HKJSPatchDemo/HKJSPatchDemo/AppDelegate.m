@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "JPEngine.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [JPEngine startEngine];
+
     return YES;
 }
 
