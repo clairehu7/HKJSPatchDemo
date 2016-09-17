@@ -6,6 +6,11 @@
 //  Copyright © 2016年 HKY. All rights reserved.
 //
 
+//http://bang590.github.io/JSPatchConvertor/
+//https://github.com/bang590/JSPatch
+//https://github.com/bang590/JSPatch/wiki
+
+
 #import "ViewController.h"
 
 @interface ViewController ()

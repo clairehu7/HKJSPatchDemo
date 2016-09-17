@@ -190,6 +190,7 @@
 				TargetAttributes = {
 					770FEE401D8C2EBB00F1FDF9 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LJTDBM4U3C;
 					};
 					770FEE591D8C2EBC00F1FDF9 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -421,6 +422,7 @@
 			baseConfigurationReference = 1C894BD8A8ACDF1A2D9EB657 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LJTDBM4U3C;
 				INFOPLIST_FILE = HKJSPatchDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.experiment.HKJSPatchDemo;
@@ -433,6 +435,7 @@
 			baseConfigurationReference = 67C383326B979DB01C3B5D38 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LJTDBM4U3C;
 				INFOPLIST_FILE = HKJSPatchDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.experiment.HKJSPatchDemo;
