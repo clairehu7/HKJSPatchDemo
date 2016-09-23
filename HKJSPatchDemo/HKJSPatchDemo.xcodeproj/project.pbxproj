@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		770FEE461D8C2EBB00F1FDF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 770FEE451D8C2EBB00F1FDF9 /* main.m */; };
 		770FEE491D8C2EBB00F1FDF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 770FEE481D8C2EBB00F1FDF9 /* AppDelegate.m */; };
-		770FEE4C1D8C2EBC00F1FDF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 770FEE4B1D8C2EBC00F1FDF9 /* ViewController.m */; };
 		770FEE4F1D8C2EBC00F1FDF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 770FEE4D1D8C2EBC00F1FDF9 /* Main.storyboard */; };
 		770FEE511D8C2EBC00F1FDF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770FEE501D8C2EBC00F1FDF9 /* Assets.xcassets */; };
 		770FEE541D8C2EBC00F1FDF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 770FEE521D8C2EBC00F1FDF9 /* LaunchScreen.storyboard */; };
 		770FEE5F1D8C2EBC00F1FDF9 /* HKJSPatchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 770FEE5E1D8C2EBC00F1FDF9 /* HKJSPatchDemoTests.m */; };
-		770FEE6A1D8C3F2E00F1FDF9 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 770FEE691D8C3F2E00F1FDF9 /* main.js */; };
+		773F63EC1D95275D0068E4BD /* JSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F63EB1D95275D0068E4BD /* JSViewController.m */; };
+		77E0DCA41D95185C00464BC6 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E0DCA01D95185C00464BC6 /* TestTableViewCell.m */; };
+		77E0DCB01D95190E00464BC6 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 77E0DCAD1D95190E00464BC6 /* main.js */; };
+		77E0DCB11D95190E00464BC6 /* JSPatchTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E0DCAF1D95190E00464BC6 /* JSPatchTool.m */; };
+		77E0DCB41D9523E300464BC6 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E0DCB31D9523E300464BC6 /* TestViewController.m */; };
+		77E0DCB71D9523FF00464BC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E0DCB61D9523FF00464BC6 /* ViewController.m */; };
 		80327D064360A3E931F6ACBE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C4F7C8655BEF15164E6E3A4 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -36,8 +40,6 @@
 		770FEE451D8C2EBB00F1FDF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		770FEE471D8C2EBB00F1FDF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		770FEE481D8C2EBB00F1FDF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		770FEE4A1D8C2EBC00F1FDF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		770FEE4B1D8C2EBC00F1FDF9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		770FEE4E1D8C2EBC00F1FDF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		770FEE501D8C2EBC00F1FDF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		770FEE531D8C2EBC00F1FDF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -45,7 +47,17 @@
 		770FEE5A1D8C2EBC00F1FDF9 /* HKJSPatchDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HKJSPatchDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		770FEE5E1D8C2EBC00F1FDF9 /* HKJSPatchDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HKJSPatchDemoTests.m; sourceTree = "<group>"; };
 		770FEE601D8C2EBC00F1FDF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		770FEE691D8C3F2E00F1FDF9 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		773F63EA1D95275D0068E4BD /* JSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSViewController.h; sourceTree = "<group>"; };
+		773F63EB1D95275D0068E4BD /* JSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSViewController.m; sourceTree = "<group>"; };
+		77E0DC9F1D95185C00464BC6 /* TestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
+		77E0DCA01D95185C00464BC6 /* TestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
+		77E0DCAD1D95190E00464BC6 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		77E0DCAE1D95190E00464BC6 /* JSPatchTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPatchTool.h; sourceTree = "<group>"; };
+		77E0DCAF1D95190E00464BC6 /* JSPatchTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPatchTool.m; sourceTree = "<group>"; };
+		77E0DCB21D9523E300464BC6 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		77E0DCB31D9523E300464BC6 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		77E0DCB51D9523FF00464BC6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		77E0DCB61D9523FF00464BC6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,15 +119,10 @@
 		770FEE431D8C2EBB00F1FDF9 /* HKJSPatchDemo */ = {
 			isa = PBXGroup;
 			children = (
+				77E0DC9E1D95185C00464BC6 /* OCTest */,
+				77E0DC9C1D95185C00464BC6 /* JSPatchTool */,
 				770FEE471D8C2EBB00F1FDF9 /* AppDelegate.h */,
 				770FEE481D8C2EBB00F1FDF9 /* AppDelegate.m */,
-				770FEE4A1D8C2EBC00F1FDF9 /* ViewController.h */,
-				770FEE4B1D8C2EBC00F1FDF9 /* ViewController.m */,
-				770FEE691D8C3F2E00F1FDF9 /* main.js */,
-				770FEE4D1D8C2EBC00F1FDF9 /* Main.storyboard */,
-				770FEE501D8C2EBC00F1FDF9 /* Assets.xcassets */,
-				770FEE521D8C2EBC00F1FDF9 /* LaunchScreen.storyboard */,
-				770FEE551D8C2EBC00F1FDF9 /* Info.plist */,
 				770FEE441D8C2EBB00F1FDF9 /* Supporting Files */,
 			);
 			path = HKJSPatchDemo;
@@ -124,6 +131,12 @@
 		770FEE441D8C2EBB00F1FDF9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				77E0DCB51D9523FF00464BC6 /* ViewController.h */,
+				77E0DCB61D9523FF00464BC6 /* ViewController.m */,
+				770FEE4D1D8C2EBC00F1FDF9 /* Main.storyboard */,
+				770FEE501D8C2EBC00F1FDF9 /* Assets.xcassets */,
+				770FEE521D8C2EBC00F1FDF9 /* LaunchScreen.storyboard */,
+				770FEE551D8C2EBC00F1FDF9 /* Info.plist */,
 				770FEE451D8C2EBB00F1FDF9 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -136,6 +149,37 @@
 				770FEE601D8C2EBC00F1FDF9 /* Info.plist */,
 			);
 			path = HKJSPatchDemoTests;
+			sourceTree = "<group>";
+		};
+		77E0DC9C1D95185C00464BC6 /* JSPatchTool */ = {
+			isa = PBXGroup;
+			children = (
+				77E0DCAC1D95190E00464BC6 /* JSFile */,
+				77E0DCAE1D95190E00464BC6 /* JSPatchTool.h */,
+				77E0DCAF1D95190E00464BC6 /* JSPatchTool.m */,
+			);
+			path = JSPatchTool;
+			sourceTree = "<group>";
+		};
+		77E0DC9E1D95185C00464BC6 /* OCTest */ = {
+			isa = PBXGroup;
+			children = (
+				77E0DC9F1D95185C00464BC6 /* TestTableViewCell.h */,
+				77E0DCA01D95185C00464BC6 /* TestTableViewCell.m */,
+				77E0DCB21D9523E300464BC6 /* TestViewController.h */,
+				77E0DCB31D9523E300464BC6 /* TestViewController.m */,
+				773F63EA1D95275D0068E4BD /* JSViewController.h */,
+				773F63EB1D95275D0068E4BD /* JSViewController.m */,
+			);
+			path = OCTest;
+			sourceTree = "<group>";
+		};
+		77E0DCAC1D95190E00464BC6 /* JSFile */ = {
+			isa = PBXGroup;
+			children = (
+				77E0DCAD1D95190E00464BC6 /* main.js */,
+			);
+			path = JSFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,7 +269,7 @@
 				770FEE541D8C2EBC00F1FDF9 /* LaunchScreen.storyboard in Resources */,
 				770FEE511D8C2EBC00F1FDF9 /* Assets.xcassets in Resources */,
 				770FEE4F1D8C2EBC00F1FDF9 /* Main.storyboard in Resources */,
-				770FEE6A1D8C3F2E00F1FDF9 /* main.js in Resources */,
+				77E0DCB01D95190E00464BC6 /* main.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,8 +335,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				770FEE4C1D8C2EBC00F1FDF9 /* ViewController.m in Sources */,
+				77E0DCB71D9523FF00464BC6 /* ViewController.m in Sources */,
+				77E0DCB41D9523E300464BC6 /* TestViewController.m in Sources */,
+				77E0DCB11D95190E00464BC6 /* JSPatchTool.m in Sources */,
+				773F63EC1D95275D0068E4BD /* JSViewController.m in Sources */,
 				770FEE491D8C2EBB00F1FDF9 /* AppDelegate.m in Sources */,
+				77E0DCA41D95185C00464BC6 /* TestTableViewCell.m in Sources */,
 				770FEE461D8C2EBB00F1FDF9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +472,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LJTDBM4U3C;
 				INFOPLIST_FILE = HKJSPatchDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.experiment.HKJSPatchDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,6 +486,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LJTDBM4U3C;
 				INFOPLIST_FILE = HKJSPatchDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.experiment.HKJSPatchDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
