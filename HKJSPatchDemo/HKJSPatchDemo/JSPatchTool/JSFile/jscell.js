@@ -16,12 +16,9 @@ defineClass('JSViewController: UIViewController<UITableViewDelegate,UITableViewD
 
             //data
             var arr = NSMutableArray.array();
-            
-            
             var dic = NSDictionary.dictionaryWithObjectsAndKeys("SANJI","imgName","点按 cell 显示 HUD","detail",null);
             var model = TestModel.alloc().initWithDictionary_error(dic,null);
             arr.addObject(model);
-            
             
             dic = NSDictionary.dictionaryWithObjectsAndKeys("ZORO","imgName","关闭 switch，再按 cell，不显示 HUD","detail",null);
             model = TestModel.alloc().initWithDictionary_error(dic,null);
@@ -56,7 +53,7 @@ defineClass('JSViewController: UIViewController<UITableViewDelegate,UITableViewD
             },
             
             tableView_didSelectRowAtIndexPath:function(tableView,indexPath){
-            tableView.deselectRowAtIndexPath_animated(indexPath);
+            tableView.deselectRowAtIndexPath_animated(indexPath,YES);
             },
 
             

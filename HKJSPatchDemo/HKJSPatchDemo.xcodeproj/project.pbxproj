@@ -14,6 +14,8 @@
 		770FEE541D8C2EBC00F1FDF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 770FEE521D8C2EBC00F1FDF9 /* LaunchScreen.storyboard */; };
 		770FEE5F1D8C2EBC00F1FDF9 /* HKJSPatchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 770FEE5E1D8C2EBC00F1FDF9 /* HKJSPatchDemoTests.m */; };
 		773F63EC1D95275D0068E4BD /* JSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F63EB1D95275D0068E4BD /* JSViewController.m */; };
+		77B2FB6E1D97F1F0007AB500 /* CellModel.js in Resources */ = {isa = PBXBuildFile; fileRef = 77B2FB6C1D97F1F0007AB500 /* CellModel.js */; };
+		77B2FB6F1D97F1F0007AB500 /* jscell.js in Resources */ = {isa = PBXBuildFile; fileRef = 77B2FB6D1D97F1F0007AB500 /* jscell.js */; };
 		77E0DCA41D95185C00464BC6 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E0DCA01D95185C00464BC6 /* TestTableViewCell.m */; };
 		77E0DCB01D95190E00464BC6 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 77E0DCAD1D95190E00464BC6 /* main.js */; };
 		77E0DCB11D95190E00464BC6 /* JSPatchTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E0DCAF1D95190E00464BC6 /* JSPatchTool.m */; };
@@ -49,6 +51,8 @@
 		770FEE601D8C2EBC00F1FDF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		773F63EA1D95275D0068E4BD /* JSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSViewController.h; sourceTree = "<group>"; };
 		773F63EB1D95275D0068E4BD /* JSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSViewController.m; sourceTree = "<group>"; };
+		77B2FB6C1D97F1F0007AB500 /* CellModel.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = CellModel.js; sourceTree = "<group>"; };
+		77B2FB6D1D97F1F0007AB500 /* jscell.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jscell.js; sourceTree = "<group>"; };
 		77E0DC9F1D95185C00464BC6 /* TestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
 		77E0DCA01D95185C00464BC6 /* TestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
 		77E0DCAD1D95190E00464BC6 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
@@ -178,6 +182,8 @@
 			isa = PBXGroup;
 			children = (
 				77E0DCAD1D95190E00464BC6 /* main.js */,
+				77B2FB6D1D97F1F0007AB500 /* jscell.js */,
+				77B2FB6C1D97F1F0007AB500 /* CellModel.js */,
 			);
 			path = JSFile;
 			sourceTree = "<group>";
@@ -269,6 +275,8 @@
 				770FEE541D8C2EBC00F1FDF9 /* LaunchScreen.storyboard in Resources */,
 				770FEE511D8C2EBC00F1FDF9 /* Assets.xcassets in Resources */,
 				770FEE4F1D8C2EBC00F1FDF9 /* Main.storyboard in Resources */,
+				77B2FB6F1D97F1F0007AB500 /* jscell.js in Resources */,
+				77B2FB6E1D97F1F0007AB500 /* CellModel.js in Resources */,
 				77E0DCB01D95190E00464BC6 /* main.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
