@@ -10,7 +10,7 @@ defineClass('JSViewController: UIViewController<UITableViewDelegate,UITableViewD
             self.super().viewDidLoad();
             // Do any additional setup after loading the view, typically from a nib.
             self.view().setBackgroundColor(UIColor.whiteColor());
-            self.setTitle("JSPatch已生效");
+            self.setTitle("JSPatch 已生效");
             self.setData(["a","b"]);
             var tableView = UITableView.alloc().initWithFrame(self.view().frame());
             tableView.setDelegate(self);
