@@ -18,5 +18,8 @@
     NSString *script = [NSString stringWithContentsOfFile:sourcePath encoding:NSUTF8StringEncoding error:nil];
     //运行js文件
     [JPEngine evaluateScript:script];
+    
+    //支持include 方法
+    [JPEngine evaluateScriptWithPath:sourcePath];
 }
 @end

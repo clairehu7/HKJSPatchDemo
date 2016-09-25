@@ -44,6 +44,7 @@
     if (!selected) {
         return;
     }
+    [self setNeedsLayout];
     if (!_switchView.on) {
         return;
     } else {
@@ -90,6 +91,7 @@
         } else {
             message = @"switchOn";
         }
+        [UIColor colorWithRed:0.3 green:0.5 blue:0.1 alpha:1];
         UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"提示" message:message preferredStyle:UIAlertControllerStyleAlert];
         UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil];
         [alertController addAction:okAction];

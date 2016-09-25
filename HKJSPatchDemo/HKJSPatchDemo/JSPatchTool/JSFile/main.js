@@ -3,7 +3,8 @@
 //https://github.com/bang590/JSPatch
 //https://github.com/bang590/JSPatch/wiki
 
-//include('')
+include('jscell.js');
+
 require('UIView,UIButton,UIScreen,UIColor,UITableView,NSMutableArray,NSMutableDictionary,NSDictionary');
 require('TestTableViewCell,TestModel');
 
@@ -14,6 +15,7 @@ defineClass('JSViewController: UIViewController<UITableViewDelegate,UITableViewD
             self.view().setBackgroundColor(UIColor.whiteColor());
             self.setTitle("JSPatch 已生效");
 
+            
             //data
             var arr = NSMutableArray.array();
             
@@ -55,13 +57,13 @@ defineClass('JSViewController: UIViewController<UITableViewDelegate,UITableViewD
             tableView.setTableFooterView(footer);
             },
             
-            tableView_didSelectRowAtIndexPath:function(tableView,indexPath){
-            tableView.deselectRowAtIndexPath_animated(indexPath);
-            },
+//            tableView_didSelectRowAtIndexPath:function(tableView,indexPath){
+//            tableView.deselectRowAtIndexPath_animated(indexPath);
+//            },
 
             
             tableView_heightForRowAtIndexPath:function(tableView,indexPath){
-            return 80
+            return JSCell.cellHeight();
             },
             
             tableView_numberOfRowsInSection:function(tableView, indexPath) {
@@ -71,8 +73,10 @@ defineClass('JSViewController: UIViewController<UITableViewDelegate,UITableViewD
             tableView_cellForRowAtIndexPath: function(tableView, indexPath) {
             var cell = tableView.dequeueReusableCellWithIdentifier("cell")
             if (!cell) {
-            cell = TestTableViewCell.alloc().initWithStyle_reuseIdentifier(0, "cell")
+            cell = JSCell.alloc().initWithStyle_reuseIdentifier(0, "cell")
+
             }
+
             var model = self.data().objectAtIndex(indexPath.row());
             cell.updateWithModel(model);
             return cell
